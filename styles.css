@@ -57,11 +57,19 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/amandae-background.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
+.main-background {
+  background: url('images/amandae-background.png') no-repeat top center ;
+}
+
+.interests-background {
+  background: url('images/journaling.png') no-repeat top center;
+}
+
 header {
   line-height: 1.5;
 }
