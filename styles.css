@@ -83,10 +83,13 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
+  filter: grayscale(100%);
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  filter: grayscale(0%);
+  border: 4px solid goldenrod;
 }
 .tag {
   background-color: #efefef;
